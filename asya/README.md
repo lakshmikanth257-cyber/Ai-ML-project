@@ -1,25 +1,3 @@
-# Asya🎭
-> *`/ˈɑːsjə/`, from Async Actors*
-<!-- **Kubernetes-native async actor framework for AI/ML orchestration** -->
-
-Asya🎭 is a **queue-based actor framework** for orchestrating AI/ML workloads on Kubernetes with:
-- **Independent scaling**: Each actor scales 0→N based on its own queue depth
-- **Zero infrastructure code**: Pure Python functions, no dependencies for queues/routing/retries
-- **Dynamic pipelines**: Routes are data, not code - modify at runtime
-- **Cost efficiency**: KEDA autoscaling from zero to max, pay only for active processing
-
-**Core idea**: Write pure Python functions. Asya handles queues, routing, scaling, and monitoring.
-
-<p align="left">
-📘 <a href="docs/">Documentation</a> • 🚀 <a href="#quick-start">Quick Start</a> • 🏗️ <a href="docs/architecture/">Architecture</a> • 💡 <a href="docs/concepts.md">Concepts</a>
-<br/><br/>
-<img src="./docs/img/dh-logo.png" alt="Delivery Hero" width="120"/>
-</p>
-
-Battle-tested at [Delivery Hero](https://tech.deliveryhero.com/) for global-scale AI-powered image enhancement. Now powering LLM and agentic workflows.
-
----
-
 ## When to Use Asya🎭
 
 ### ✅ Ideal For
